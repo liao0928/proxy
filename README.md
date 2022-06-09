@@ -1,6 +1,6 @@
 # PROXY
 b1042029 b1042048
-- [proxy](https://github.com/liao0928/proxy/edit/main/README.md#proxy)
+- [proxy](https://github.com/liao0928/proxy/blob/main/README.md#proxy-1)
 - [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
 - [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
 - [HTTPS](https://github.com/liao0928/proxy/blob/main/README.md#https)
