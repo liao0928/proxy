@@ -1,6 +1,6 @@
 # proxy
 b1042029 b1042048
-- [下載squid](https://github.com/liao0928/proxy/edit/main/README.md)
+- [下載squid](docs/README.md)
 - [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/edit/main/README.md)
 - [進入blocksite](https://github.com/liao0928/proxy/edit/main/README.md)
 - [重置squid](https://github.com/liao0928/proxy/edit/main/README.md)
