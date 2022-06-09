@@ -4,6 +4,7 @@ b1042029 b1042048
 - [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
 - [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
 - [HTTPS](https://github.com/liao0928/proxy/blob/main/README.md#https)
+- [FTP](https://github.com/liao0928/proxy/blob/main/README.md#ftp)
 - [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
 - [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
 - [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
