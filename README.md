@@ -24,7 +24,7 @@ Squid是一個代理伺服器，HTTP請求被發送到Squid，而不是直接發
 超文本傳輸協定安全 （HTTPS） 是超文字傳輸協定 （HTTP） 的擴展。它用於通過計算機網路進行安全通信，並在互聯網上廣泛使用。在HTTPS中，通信協定使用傳輸層安全性（TLS）或以前的安全套接字層（SSL）進行加密。因此，該協定也被稱為HTTP over TLS，或HTTP over SSL。
 ## FTP
 檔案傳輸協定 （FTP） 是一種標準通訊協定，用於將電腦檔從伺服器傳輸到計算機網路上的用戶端。
-###### sudo apt-get update
+sudo apt-get update
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
 ###### ifconfig
