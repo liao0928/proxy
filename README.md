@@ -1,14 +1,19 @@
-# 單人proxy
+# proxy
+b1042029 b1042048
+- [下載squid](https://github.com/liao0928/proxy/edit/main/README.md)
+- [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/edit/main/README.md)
+- [進入blocksite](https://github.com/liao0928/proxy/edit/main/README.md)
+- [重置squid](https://github.com/liao0928/proxy/edit/main/README.md)
 ###### sudo apt-get update
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
 ###### ifconfig
-接著下載squid:
+## 下載squid
 ###### sudo apt-get install squid
 # ![image](https://i.imgur.com/O43tTGk.jpg)
 進入root:
 ###### sudo su
-進入 /etc/squid/squid.conf:
+## 進入 /etc/squid/squid.conf
 ###### gedit /etc/squid/squid.conf
 # ![image](https://i.imgur.com/8tt0V3n.jpg)
 到1407行，輸入:
@@ -26,11 +31,12 @@
 接著儲存
 回終端機後，輸入:
 ###### gedit /etc/squid/blocksite
+## 進入blocksite
 # ![image](https://i.imgur.com/u7Mo2BB.jpg)
 # ![image](https://i.imgur.com/UQu1q3r.jpg)
 輸入www.youtube.com 後儲存
 # ![image](https://i.imgur.com/sy180su.jpg)
-重置squid:
+## 重置squid
 ###### systemctl restart squid
 到firefox->setting->手動proxy->輸入自己ip,3128->儲存
 # ![image](https://i.imgur.com/HazmwqH.jpg)
