@@ -3,13 +3,13 @@ b1042029 b1042048
 - [proxy](https://github.com/liao0928/proxy/edit/main/README.md#proxy)
 - [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
 - [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
-- [進入blocksite](https://github.com/liao0928/proxy/edit/main/README.md#%E9%80%B2%E5%85%A5blocksite)
-- [重置squid](https://github.com/liao0928/proxy/edit/main/README.md#%E9%87%8D%E7%BD%AEsquid)
-- [多人proxy](https://github.com/liao0928/proxy/edit/main/README.md#%E5%A4%9A%E4%BA%BAproxy)
-- [設置臨時代理](https://github.com/liao0928/proxy/edit/main/README.md#%E8%A8%AD%E7%BD%AE%E8%87%A8%E6%99%82%E4%BB%A3%E7%90%86)
-- [設置永久代理](https://github.com/liao0928/proxy/edit/main/README.md#%E8%A8%AD%E7%BD%AE%E6%B0%B8%E4%B9%85%E4%BB%A3%E7%90%86)
-- [永久設置代理訪問](https://github.com/liao0928/proxy/edit/main/README.md#%E6%B0%B8%E4%B9%85%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86%E8%A8%AA%E5%95%8F)
-- [APT設置代理](https://github.com/liao0928/proxy/edit/main/README.md#apt%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86)
+- [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
+- [重置squid](https://github.com/liao0928/proxy/blob/main/README.md#%E9%87%8D%E7%BD%AEsquid)
+- [多人proxy](https://github.com/liao0928/proxy/blob/main/README.md#%E5%A4%9A%E4%BA%BAproxy)
+- [設置臨時代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E8%87%A8%E6%99%82%E4%BB%A3%E7%90%86)
+- [設置永久代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E6%B0%B8%E4%B9%85%E4%BB%A3%E7%90%86)
+- [永久設置代理訪問](https://github.com/liao0928/proxy/blob/main/README.md#%E6%B0%B8%E4%B9%85%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86%E8%A8%AA%E5%95%8F)
+- [APT設置代理](https://github.com/liao0928/proxy/blob/main/README.md#apt%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86)
 ###### sudo apt-get update
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
