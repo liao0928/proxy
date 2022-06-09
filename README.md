@@ -2,7 +2,8 @@
 b1042029 b1042048
 - [proxy](https://github.com/liao0928/proxy/edit/main/README.md#proxy)
 - [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
-- [HTTP]()
+- [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
+- [HTTPS](https://github.com/liao0928/proxy/blob/main/README.md#https)
 - [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
 - [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
 - [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
@@ -19,7 +20,9 @@ Squid是一個代理伺服器，HTTP請求被發送到Squid，而不是直接發
 ## HTTP
 超文本傳輸協定（英語：HyperText Transfer Protocol，縮寫：HTTP）是一種用於分佈式、協作式和超媒體訊息系統的應用層協定。HTTP是全球資訊網的數據通信的基礎。
 ## HTTPS
-
+超文本傳輸協定安全 （HTTPS） 是超文字傳輸協定 （HTTP） 的擴展。它用於通過計算機網路進行安全通信，並在互聯網上廣泛使用。在HTTPS中，通信協定使用傳輸層安全性（TLS）或以前的安全套接字層（SSL）進行加密。因此，該協定也被稱為HTTP over TLS，或HTTP over SSL。
+## FTP
+檔案傳輸協定 （FTP） 是一種標準通訊協定，用於將電腦檔從伺服器傳輸到計算機網路上的用戶端。
 ###### sudo apt-get update
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
