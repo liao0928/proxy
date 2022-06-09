@@ -1,6 +1,8 @@
 # PROXY
 b1042029 b1042048
 - [proxy](https://github.com/liao0928/proxy/edit/main/README.md#proxy)
+- [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
+- [HTTP]()
 - [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
 - [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
 - [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
@@ -14,6 +16,10 @@ b1042029 b1042048
 代理（英語：Proxy）也稱網路代理，是一種特殊的網路服務，允許一個終端（一般為客戶端）通過這個服務與另一個終端（一般為伺服器）進行非直接的連接。一些閘道器、路由器等網路裝置具備網路代理功能。一般認為代理服務有利於保障網路終端的隱私或安全，在一定程度上能夠阻止網路攻擊。
 ## squid
 Squid是一個代理伺服器，HTTP請求被發送到Squid，而不是直接發送到互聯網。
+## HTTP
+超文本傳輸協定（英語：HyperText Transfer Protocol，縮寫：HTTP）是一種用於分佈式、協作式和超媒體訊息系統的應用層協定。HTTP是全球資訊網的數據通信的基礎。
+## HTTPS
+
 ###### sudo apt-get update
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
