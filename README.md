@@ -3,27 +3,39 @@
 ###### sudo  
 ###### ifconfig
 ###### sudo apt-get install squid
+![image](https://i.imgur.com/O43tTGk.jpg)
 ###### sudo su
 ###### gedit /etc/squid/squid.conf
+![image](https://i.imgur.com/8tt0V3n.jpg)
 到1407行，輸入:
+![image](https://i.imgur.com/xkIKYN2.jpg)
 ###### acl local src 你的ip
-###### acl blocksite dstdomain "/etc/squid/blocksite"
+###### acl blocksite dstdomain "/etc/squid/blocksite"![image]()
 ###### htttp_access deny blocksite
 ###### http_access allow localnet
 到1420行，將http_access deny all改成:
 ###### http_acess allow all
+![image](https://i.imgur.com/J7f2BcG.jpg)
+![image](https://i.imgur.com/wXtZe57.jpg)
 按f6搜尋:[http_port]，找到http_port ----改成http_port 3128
+![image](https://i.imgur.com/z7xBCiJ.jpg)
 接著儲存
 回終端機後，輸入:
 ###### gedit /etc/squid/blocksite
+![image](https://i.imgur.com/u7Mo2BB.jpg)
+![image](https://i.imgur.com/UQu1q3r.jpg)
 輸入:www.youtube.com後儲存
+![image](https://i.imgur.com/sy180su.jpg)
 重置squid:
 ###### systemctl restart squid
 到firefox->setting->手動proxy->儲存->開youtube
+![image](https://i.imgur.com/HazmwqH.jpg)
 得到的結果會是youtube開啟不了
+![image](https://i.imgur.com/CDMF6PQ.jpg)
 為了驗證並非網路有問題，回終端機再輸入:
 ###### gedit /etc/squid/blocksite
 輸入www.facebook.com後儲存
+![image](https://i.imgur.com/LuCHVLe.jpg)
 反回終端機後輸入:
 ###### systemctl restart squid
 開facebook，應該會得到開啟不了的結果
@@ -31,6 +43,7 @@
 # 多人proxy
 首先開啟setting->Network->Network proxy->Manual
 在http,https,ftp欄都輸入: 你的ip,3128
+![image](https://i.imgur.com/utbgTVK.jpg)
 之後退出(按叉)
 回到終端機，接著要為單個用戶設置臨時代理，輸入:
 ###### export HTTP_PROXY=[username]:[password]@[你的ip]:3128
