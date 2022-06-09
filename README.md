@@ -49,9 +49,9 @@ Squid是一個代理伺服器，HTTP請求被發送到Squid，而不是直接發
 按f6搜尋:[http_port]，找到http_port ----改成http_port 3128
 # ![image](https://i.imgur.com/z7xBCiJ.jpg)
 接著儲存
+## 進入blocksite
 回終端機後，輸入:
 ###### gedit /etc/squid/blocksite
-## 進入blocksite
 # ![image](https://i.imgur.com/u7Mo2BB.jpg)
 # ![image](https://i.imgur.com/UQu1q3r.jpg)
 輸入www.youtube.com 後儲存
