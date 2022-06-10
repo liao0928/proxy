@@ -1,5 +1,5 @@
 # PROXY
-[b1042029](copy) b1042048 
+b1042029 b1042048 
 - [proxy](https://github.com/liao0928/proxy/blob/main/README.md#proxy-1)
 >- [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
 >- [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
