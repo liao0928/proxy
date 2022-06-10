@@ -14,7 +14,7 @@ b1042029 b1042048
 - [設置永久代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E6%B0%B8%E4%B9%85%E4%BB%A3%E7%90%86)
 - [永久設置代理訪問](https://github.com/liao0928/proxy/blob/main/README.md#%E6%B0%B8%E4%B9%85%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86%E8%A8%AA%E5%95%8F)
 - [APT設置代理](https://github.com/liao0928/proxy/blob/main/README.md#apt%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86)
-- [監視紀錄]
+- [監視紀錄](https://github.com/liao0928/proxy/blob/main/README.md#%E7%9B%A3%E8%A6%96%E7%B4%80%E9%8C%84)
 ## proxy
 代理（英語：Proxy）也稱網路代理，是一種特殊的網路服務，允許一個終端（一般為客戶端）通過這個服務與另一個終端（一般為伺服器）進行非直接的連接。一些閘道器、路由器等網路裝置具備網路代理功能。一般認為代理服務有利於保障網路終端的隱私或安全，在一定程度上能夠阻止網路攻擊。
 ## squid
@@ -112,3 +112,8 @@ sudo apt-get update
 儲存並退出
 接著在window或自己的主機開啟youtube、facebook會得到開啟不了的結果，但其他網頁可以
 ## 監視紀錄
+###### sudo su
+###### cd /var/log/squid
+# ![image](https://i.imgur.com/wmvEF9b.jpg)
+###### gedit access.log
+# ![image](https://i.imgur.com/dKzYazD.jpg)
