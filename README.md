@@ -1,19 +1,22 @@
 # PROXY
-b1042029 b1042048
+[b1042029](copy) b1042048 
 - [proxy](https://github.com/liao0928/proxy/blob/main/README.md#proxy-1)
-- [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
-- [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
-- [HTTPS](https://github.com/liao0928/proxy/blob/main/README.md#https)
-- [FTP](https://github.com/liao0928/proxy/blob/main/README.md#ftp)
-- [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
-- [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
-- [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
-- [重置squid](https://github.com/liao0928/proxy/blob/main/README.md#%E9%87%8D%E7%BD%AEsquid)
+>- [squid](https://github.com/liao0928/proxy/blob/main/README.md#squid)
+>- [HTTP](https://github.com/liao0928/proxy/blob/main/README.md#http)
+>- [HTTPS](https://github.com/liao0928/proxy/blob/main/README.md#https)
+>- [FTP](https://github.com/liao0928/proxy/blob/main/README.md#ftp)
+>- [下載squid](https://github.com/liao0928/proxy/blob/main/README.md#%E4%B8%8B%E8%BC%89squid)
+>- [實作]()
+>- [進入 /etc/squid/squid.conf](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5-etcsquidsquidconf)
+>- [進入blocksite](https://github.com/liao0928/proxy/blob/main/README.md#%E9%80%B2%E5%85%A5blocksite)
+>- [重置squid](https://github.com/liao0928/proxy/blob/main/README.md#%E9%87%8D%E7%BD%AEsquid)  
+
 - [多人proxy](https://github.com/liao0928/proxy/blob/main/README.md#%E5%A4%9A%E4%BA%BAproxy)
-- [設置臨時代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E8%87%A8%E6%99%82%E4%BB%A3%E7%90%86)
-- [設置永久代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E6%B0%B8%E4%B9%85%E4%BB%A3%E7%90%86)
-- [永久設置代理訪問](https://github.com/liao0928/proxy/blob/main/README.md#%E6%B0%B8%E4%B9%85%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86%E8%A8%AA%E5%95%8F)
-- [APT設置代理](https://github.com/liao0928/proxy/blob/main/README.md#apt%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86)
+>- [設置臨時代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E8%87%A8%E6%99%82%E4%BB%A3%E7%90%86)
+>- [設置永久代理](https://github.com/liao0928/proxy/blob/main/README.md#%E8%A8%AD%E7%BD%AE%E6%B0%B8%E4%B9%85%E4%BB%A3%E7%90%86)
+>- [永久設置代理訪問](https://github.com/liao0928/proxy/blob/main/README.md#%E6%B0%B8%E4%B9%85%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86%E8%A8%AA%E5%95%8F)
+>- [APT設置代理](https://github.com/liao0928/proxy/blob/main/README.md#apt%E8%A8%AD%E7%BD%AE%E4%BB%A3%E7%90%86)  
+
 - [監視紀錄](https://github.com/liao0928/proxy/blob/main/README.md#%E7%9B%A3%E8%A6%96%E7%B4%80%E9%8C%84)
 ## proxy
 代理（英語：Proxy）也稱網路代理，是一種特殊的網路服務，允許一個終端（一般為客戶端）通過這個服務與另一個終端（一般為伺服器）進行非直接的連接。一些閘道器、路由器等網路裝置具備網路代理功能。一般認為代理服務有利於保障網路終端的隱私或安全，在一定程度上能夠阻止網路攻擊。
@@ -25,7 +28,10 @@ Squid是一個代理伺服器，HTTP請求被發送到Squid，而不是直接發
 超文本傳輸協定安全 （HTTPS） 是超文字傳輸協定 （HTTP） 的擴展。它用於通過計算機網路進行安全通信，並在互聯網上廣泛使用。在HTTPS中，通信協定使用傳輸層安全性（TLS）或以前的安全套接字層（SSL）進行加密。因此，該協定也被稱為HTTP over TLS，或HTTP over SSL。
 ## FTP
 檔案傳輸協定 （FTP） 是一種標準通訊協定，用於將電腦檔從伺服器傳輸到計算機網路上的用戶端。
-sudo apt-get update
+## 實作
+###### [sudo apt-get update]  
+  
+  
 先用ifconfig找出自己的ip，若不能用ifconfig請先下載apt install net-tools -y
 ###### sudo apt install net-tools -y
 ###### ifconfig
